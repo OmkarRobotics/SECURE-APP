@@ -6,6 +6,7 @@ export default function TabLayout() {
       <Tabs.Screen name="home" options={{ title: 'Home' }} />
       <Tabs.Screen name="lessons" options={{ title: 'Lessons' }} />
       <Tabs.Screen name="questions" options={{ title: 'Questions' }} />
+      <Tabs.Screen name="TestFirebaseScreen" options={{ title: 'Test' }} />
     </Tabs>
   );
 }
